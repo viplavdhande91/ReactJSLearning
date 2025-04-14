@@ -1,12 +1,13 @@
 import './App.css';
-import Demo from './components/Demo/demo';
+import HeaderContainer from './containers/HeaderContainer';
+import HomeContainer from './containers/HomeContainer';
 
 function App() {
   return (
     <div className="App">
-      <h1>APP Component</h1>
-      <Demo></Demo>
-    </div>
+      <HeaderContainer />
+
+      <HomeContainer />    </div>
   );
 }
 
